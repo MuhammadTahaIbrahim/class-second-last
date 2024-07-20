@@ -1,0 +1,25 @@
+div::before{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: aqua;
+    position: absolute;
+}
+div:hover::after{
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    position: absolute;
+}
+
+
+
+ul li a:hover::after{
+    content: "";
+    border-bottom: 2px solid green;
+    display: block;
+    /* width: 50%; */
+}
